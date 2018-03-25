@@ -18,6 +18,13 @@ var num = document.getElementById("n1");
 num.value = Math.pow(num.value, 4);
 
 }
+    function seno(){
+
+var num = document.getElementById("n1");
+
+num.value = Math.sin(num.value);
+
+}
 
 </script>
 
@@ -31,14 +38,14 @@ Number:
 <input type="text" id="n1"><p>
 
 <button onclick="cube()"> x^3 </button>
-<<<<<<< HEAD
-<!--    añadiendo un segundo botón al commit de la calculadora que solo tiene el botón x^3. El nuevo botón debe calcular el seno de un número (sin(x)).-->
-    <button onclick="sin(x)"> seno </button>
 
-=======
+<!--    añadiendo un segundo botón al commit de la calculadora que solo tiene el botón x^3. El nuevo botón debe calcular el seno de un número (sin(x)).-->
+    <button onclick="seno()"> seno </button>
+
+
 <!--    añadir un segundo botón a la calculadora que eleve un número a la cuarta potencia (x^4) -->
 <button onclick="cuatr()"> x^4 </button>
->>>>>>> master
+
 </body>
 
 </html>
